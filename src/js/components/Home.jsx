@@ -3,13 +3,16 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar.jsx";
+import Card from "./Card.jsx";
+import Cardmaster from "./Cardmaster.jsx"
+
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar/>
-            
+            <Cardmaster/>
 
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
@@ -23,6 +26,7 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<Card/>
 		</div>
 	);
 };
