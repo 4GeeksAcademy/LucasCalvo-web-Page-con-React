@@ -5,6 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar.jsx";
 import Card from "./Card.jsx";
 import Jumbotron from "./Jumbotron.jsx"
+import Footer from "./Footer.jsx"
 
 
 //create your first component
@@ -41,6 +42,7 @@ const Home = () => {
     ))}
   </div>
 </div>
+<Footer/>
     </>
   );
 };
